@@ -36,7 +36,7 @@ let words = 0;
 if (name == 'cutie pie'){
     words = ("Welcome, "+name+ "!")
    }
-else{
-    words = ("Nice to meet you "+name)
+else
+    words = ("Nice to meet you, "+name+ "!")
     }
 document.getElementById("hello").innerHTML = words;
